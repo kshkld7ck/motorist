@@ -6,13 +6,18 @@
         margin: 0 auto;
         padding: 0 20px;
     }
+
     .logo {
         display: none;
     }
+
     nav .container {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 }
+
 @media (min-width:320px) and (max-width: 991px) {
     .container {
         min-width: 100%;
@@ -21,112 +26,175 @@
         margin: 0 auto;
         padding: 0 20px;
     }
+
     .logo {
         display: none;
     }
+
     nav {
         display: none;
     }
+
     .main__cards {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
+
     .main__block {
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
         flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         text-align: center;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin-bottom: 20px;
     }
+
     .main__block img {
         width: 30%;
     }
+
     .main__cards {
         padding: 12px;
     }
-    .steps__wrapper, .main__buttons{
+
+    .steps__wrapper,
+    .main__buttons {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
+
     .steps__block:after {
         display: none;
 
     }
+
     .steps__block {
         margin-bottom: 30px;
     }
+
     .main__header {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
+
     h1.title {
         font-size: 26px;
     }
+
     h3.subtitle {
         font-size: 16px;
     }
+
     main {
         padding-top: 20px;
     }
+
     .main__content {
         text-align: center;
     }
+
     .main__content button {
         margin: 5px 0px;
     }
+
     h3.subtitle {
+        -webkit-margin-before: 10px;
         margin-block-start: 10px;
+        -webkit-margin-after: 10px;
         margin-block-end: 10px;
     }
+
     h1.title {
+        -webkit-margin-before: 10px;
         margin-block-start: 10px;
+        -webkit-margin-after: 10px;
         margin-block-end: 10px;
     }
+
     .about__card {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         padding: 15px;
         margin-top: 30px;
     }
+
     .about__logo {
         margin-top: 30px;
         width: 100%;
     }
+
     .about__text {
         font-size: 14px;
     }
+
     .text {
         width: 100%;
     }
+
     .steps__wrapper {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
+
     .wanttocheck__title {
         font-size: 32px;
     }
+
     .wanttocheck__subtitle {
         font-size: 20px;
     }
+
     .button__slide-icon {
         width: 60px;
         height: 60px;
     }
+
     #wanttocheck {
         height: 450px;
     }
+
     #wanttocheck:before {
         height: 450px;
     }
-    .three-inputs .form-group  {
+
+    .three-inputs .form-group {
         width: 100%;
     }
+
     .three-inputs {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
+
     footer .container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
+
     .footer__frame {
         width: 100%;
     }
+
     .main__block-title {
         width: 100%;
     }
